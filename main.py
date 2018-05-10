@@ -66,4 +66,4 @@ gpsthread.daemon = True
 while True:
     #print('緯度経度: %2.8f, %2.8f' % (gps.latitude[0], gps.longitude[0]))
     print('%3f' % direction)
-    time.sleep(1)
+    time.sleep(10)
